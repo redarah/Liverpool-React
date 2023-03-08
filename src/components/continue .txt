@@ -1,0 +1,29 @@
+nav 
+<div className='shopingCart'>
+      (
+        <Button style={{width : "5rem" , height:  "5rem", position:'relative',border: 'none'  }} 
+        variant= "outline-primary" className='rounded-circle'onClick={openCart} >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28"><linearGradient id="a" x1="868.281" x2="875.406" y1="-445.916" y2="-454.718" gradientTransform="matrix(3.0757 0 0 -3.0757 -2667.455 -1370.944)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FCD600"/><stop offset="1" stop-color="#F16222"/></linearGradient><path fill="url(#a)" d="M5.917 0h16.165A5.917 5.917 0 0 1 28 5.917v16.165A5.917 5.917 0 0 1 22.083 28H5.917A5.917 5.917 0 0 1 0 22.083V5.917A5.917 5.917 0 0 1 5.917 0z"/><path fill="#fff" d="M18.04 16.5h-6.18a.5.5 0 0 1-.495-.43l-.939-6.57H8.36a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .495.43l.224 1.57h7.061a1.499 1.499 0 0 1 1.471 1.795l-.6 2.999A1.505 1.505 0 0 1 18.04 16.5zm-5.747-1h5.747a.501.501 0 0 0 .49-.401l.6-3a.5.5 0 0 0-.49-.599h-6.918l.571 4z"/><path fill="#fff" d="M19.36 19.5h-7.382a1.49 1.49 0 0 1-1.276-.711 1.49 1.49 0 0 1-.065-1.46l.776-1.553a.5.5 0 0 1 .895.447l-.776 1.553a.49.49 0 0 0 .022.486.492.492 0 0 0 .425.237h7.382a.5.5 0 1 1-.001 1.001z"/></svg>
+        </Button>
+      )
+        
+    </div>
+
+    <div className='number'  >
+                    {cartQuantity}
+    </div>
+
+
+pricing card 
+{quantity === 0 ? (<Button className="w-100" onClick={() => increaseCartQuantity(record.id,record.name,record.value)}>+ Add To Cart</Button>) : (
+                        <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem"}}>
+                            <div className="d-flex align-items-center flex-column" style={{ gap: ".5rem"}}>
+                                <Button onClick={() => decreaseCartQuantity(record.id)}>-</Button>
+                            <div> 
+                                <span className='fs-3'>{quantity} in cart </span>
+                            </div>
+                            <Button onClick={() => increaseCartQuantity(record.id)}>+</Button>
+                        </div>
+                        <Button variant="danger" size='sm'onClick={() => removeFromCart(record.id)}>Remove</Button>
+                        </div>
+    

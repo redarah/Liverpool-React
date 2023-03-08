@@ -1,0 +1,8 @@
+@import '~react-datepicker/dist/react-datepicker.css';
+.form {
+    background-color: black;
+}
+.react-datepicker__dropdown-menu {
+    display: block !important;
+  }
+  

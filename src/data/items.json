@@ -1,0 +1,104 @@
+
+[
+    
+    {
+        "id":1,
+        "name": "Alisson",
+        "position": "GK",
+        "availability": "Monday, Tuesday",
+        "value": 10000,
+        "image": "../assets/Alisson.jpg",
+        "bio": "Brazilian professional footballer who plays as a goalkeeper for Premier League club Liverpool and the Brazil national team.He is widely regarded to be one of the best goalkeepers in the world"
+    },
+    {
+        "id":2,
+        "name": "Matip",
+        "position": "CB",
+        "availability": "Thursday, Wedsnday",
+        "value": 8000,
+        "image": "../assets/matip.jpg",
+        "bio": "Joël Matip, né le 8 août 1991 à Bochum,est un footballeur international camerounais qui évolue au poste de défenseur central au Liverpool FC."
+    },
+    {
+        "id":3,
+        "name": "Van Djik",
+        "position": "CB",
+        "availability": "Tuesday, Wedsnday",
+        "value": 30000,
+        "image": "../assets/vvd.jpg",
+        "bio": "Dutch professional footballer who plays as a centre-back for Premier Leagueclub Liverpool and the Netherlands national team. Considered one of the best defenders in the world."
+    },
+    {
+        "id":4,
+        "name": "Alexander-Arnold",
+        "position": "RB",
+        "availability": "Thursday , Friday",
+        "value": 50000 ,
+        "image": "../assets/taa.jpg",
+        "bio": "English professional footballer who plays as a right-back for Premier League club Liverpool and the England national team.Known for his range of crossing and assists."
+    },
+    {
+        "id":5,
+        "name": "Robertson",
+        "position": "LB",
+        "availability": "Saturday , Friday",
+        "value": 30000 ,
+        "image": "../assets/robertson.jpg",
+        "bio": "Scottish professional footballerwho plays as a left-back for Premier League club Liverpool and captains the Scotland national team."
+    },
+    {
+        "id":6,
+        "name": "Fabinho",
+        "position": "CDM",
+        "availability": "Saturday , Sunday",
+        "value": 10000 ,
+        "image": "../assets/fabi.jpg",
+        "bio": "Brazilian professional footballer who plays as a midfielder for Premier League club Liverpool and the Brazil national team.A versatile player who mainly plays as a defensive midfielder."
+    },
+    {
+        "id":7,
+        "name": "Henderson (C)",
+        "position": "CM",
+        "availability": "Monday , Wedsnday",
+        "value": 50000 ,
+        "image": "../assets/henderson.jpg",
+        "bio": "English professional footballer who plays as a midfielder for Premier League club Liverpool and the England national team."
+    },
+    {
+        "id":8,
+        "name": "Wijnaldum",
+        "position": "CM",
+        "availability": "Sunday , Wedsnday   ",
+        "value": 18000 ,
+        "image": "../assets/wijnaldum.jpg",
+        "bio": "Wijnaldum is regarded as a club “legend” (in the words of former manager Jürgen Klopp) who played a major part in Liverpool’s successes over his years at the club."
+    },
+    {
+        "id":9,
+        "name": "Firmino",
+        "position": "BU",
+        "availability": "Friday , Tuesday ",
+        "value": 50000,
+        "image": "../assets/firmino.jpg",
+        "bio": "Brazilian professional footballer who plays as a forward or attacking midfielder for Premier League club Liverpool and the Brazil national team."
+    },
+    {
+        "id":10,
+        "name": "Mane",
+        "position": "LW",
+        "availability": "All week",
+        "value": 100000,
+        "image": "../assets/mane.jpg",
+        "bio": "Senegalese professional footballer who played  as a forward for Premier League club Liverpool and the Senegal national team.Considered one of the best players in the world and amongst the greatest African players of all time."
+    },
+    {
+        "id":11,
+        "name": "Salah",
+        "position": "RW",
+        "availability": "All week",
+        "value": 100000,
+        "image": "../assets/salah.jpg",
+        "bio": "Egyptian professional footballer who plays as a forward for Premier League club Liverpool and captains the Egypt national team. Considered one of the best players in the world."
+    }
+    
+]
